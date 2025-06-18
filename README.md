@@ -1,5 +1,6 @@
 1. Gmail Sign-In Page
-The app uses Google Authentication via Firebase. This is the initial sign-in screen where users log in using their Gmail account.
+The app uses Google Authentication via Firebase. 
+This is the initial sign-in screen where users log in using their Gmail account.
 ![WhatsApp Image 2025-06-18 at 16 10 15](https://github.com/user-attachments/assets/e798183e-0b53-419e-be28-2c9b5c5f2136)
 
 
@@ -9,7 +10,8 @@ After successful login, the user bharicharanreddy@gmail.com is authenticated and
 
 
 3. Firebase Database for bharicharanreddy@gmail.com
-Here you can see the user's data stored in Firebase Firestore. Each user has their own collection of todos.
+Here you can see the user's data stored in Firebase Firestore. 
+Each user has their own collection of todos.
 ![WhatsApp Image 2025-06-18 at 16 11 28](https://github.com/user-attachments/assets/7f5346f4-e560-4d23-883d-5c71032a4ec5)
 
 
