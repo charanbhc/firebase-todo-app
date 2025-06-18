@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+1. Gmail Sign-In Page
+The app uses Google Authentication via Firebase. This is the initial sign-in screen where users log in using their Gmail account.
+![WhatsApp Image 2025-06-18 at 16 10 15](https://github.com/user-attachments/assets/e798183e-0b53-419e-be28-2c9b5c5f2136)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Logged in as bharicharanreddy@gmail.com
+After successful login, the user bharicharanreddy@gmail.com is authenticated and redirected to the app.
+![WhatsApp Image 2025-06-18 at 16 12 15](https://github.com/user-attachments/assets/13fe5f24-4e07-43ca-91bc-272a211f85c1)
 
-## Available Scripts
+3. Firebase Database for bharicharanreddy@gmail.com
+Here you can see the user's data stored in Firebase Firestore. Each user has their own collection of todos.
+![WhatsApp Image 2025-06-18 at 16 11 28](https://github.com/user-attachments/assets/7f5346f4-e560-4d23-883d-5c71032a4ec5)
 
-In the project directory, you can run:
+4. Logged in as charanbhc@gmail.com
+A different user (charanbhc@gmail.com) signs in via the same app using their Google account.
+![WhatsApp Image 2025-06-18 at 16 11 58](https://github.com/user-attachments/assets/0a561601-3180-4c5d-86fc-1a295238ccc1)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Firebase Database for charanbhc@gmail.com
+Firebase stores this user's todo list separately, ensuring each account has its own secure and isolated data.
+![WhatsApp Image 2025-06-18 at 16 11 07](https://github.com/user-attachments/assets/6b8020e7-6795-4a20-a74b-e204e16e611a)
